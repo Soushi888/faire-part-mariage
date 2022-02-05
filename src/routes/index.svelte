@@ -82,10 +82,10 @@
       <img src={jellyfish_2} alt="jellyfish">
     </div>
     <div class="contribution">
-      <p>Pour cette magnifique célébration, nous vous demandons une contribution de <b>90.00$</b> par personne et <b>10$</b>
-        pour les enfants de dix ans et plus, pour les tous petits de 0-9 ans c’est <b>gratuit</b>.
-        Il y aura 2 bouteille de vin par table de plus apporter votre boisson favorite parce qu’il n’y a pas de service
-        de bar.</p>
+      <p>Pour cette magnifique célébration, nous vous demandons une contribution de <b>90.00$</b> par personne et
+        <b>10$</b> pour les enfants de dix ans et plus, pour les tous petits de 0-9 ans c’est <b>gratuit</b>.</p>
+      <p> Il y aura 2 bouteille de vin par table de plus apporter votre boisson favorite parce qu’il n’y a pas de
+        service de bar.</p>
     </div>
   </part-2>
 </main>
@@ -201,7 +201,7 @@
         align-items: center;
         text-align: center;
         padding: 25px;
-        background-color: rgba(127, 255, 178, 0.41);
+        background-color: rgba(84, 171, 119, 0.49);
         border-radius: 25px;
 
         .text {
@@ -226,7 +226,7 @@
           }
 
           img {
-            width: 50%;
+            width: 65%;
           }
         }
 
@@ -244,8 +244,11 @@
         text-align: center;
         padding: 20px;
         border-radius: 20px;
+
+        p:not(:last-of-type) {
+          margin-bottom: 10px;
+        }
       }
     }
   }
-
 </style>
