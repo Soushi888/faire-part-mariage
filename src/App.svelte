@@ -1,30 +1,36 @@
 <script lang="ts">
-  export let name: string;
+  const seahorses = "assets/seahorses.png"
 </script>
 
 <main>
-    <h1>Hello {name}!</h1>
-    <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <div class="part-1">
+        <h1>Hello World !</h1>
+        <img src={seahorses} alt="Seahorses">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci asperiores atque, consequatur dolor
+            dolore, doloribus dolorum, enim fugit id iure laudantium magni numquam pariatur provident quisquam repellat
+            repellendus sed.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci asperiores atque, consequatur dolor
+            dolore, doloribus dolorum, enim fugit id iure laudantium magni numquam pariatur provident quisquam repellat
+            repellendus sed.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci asperiores atque, consequatur dolor
+            dolore, doloribus dolorum, enim fugit id iure laudantium magni numquam pariatur provident quisquam repellat
+            repellendus sed.</p>
+    </div>
 </main>
 
 <style>
     main {
-        text-align: center;
-        padding: 1em;
-        max-width: 240px;
-        margin: 0 auto;
+        min-height: 100vh;
+        max-width: 100vw;
+        background-image: url("/assets/starfishes_seashells_bg.jpg");
+        background-size: cover;
     }
 
-    h1 {
-        color: #ff3e00;
-        text-transform: uppercase;
-        font-size: 4em;
-        font-weight: 100;
+    .part-1 {
+        width: 45%;
     }
 
-    @media (min-width: 640px) {
-        main {
-            max-width: none;
-        }
+    img[alt=Seahorses] {
+        width: 200px;
     }
 </style>
