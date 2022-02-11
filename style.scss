@@ -1,6 +1,8 @@
 @import "reset.css";
 
 main {
+  background-color: #f5c084;
+
   p {
     font-size: 1.4rem;
   }
@@ -230,6 +232,7 @@ main {
 
       img {
         width: 50%;
+
         &:nth-of-type(2) {
           border-radius: 25px;
         }
