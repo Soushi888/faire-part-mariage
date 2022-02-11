@@ -1,6 +1,9 @@
 @import url(reset.css);
 main p {
   font-size: 1.4rem; }
+main a {
+  color: #0303b7;
+  font-weight: 600; }
 main part-1 {
   display: block;
   background-image: url("assets/images/starfishes_seashells_bg.jpg");
@@ -36,9 +39,6 @@ main part-1 {
       margin-bottom: 20px; }
     main part-1 .info p {
       margin-bottom: 10px; }
-    main part-1 .info a {
-      color: #0303b7;
-      font-weight: 600; }
     main part-1 .info .map {
       margin: 20px auto; }
       main part-1 .info .map iframe {
@@ -128,5 +128,22 @@ main part-2 {
     border-radius: 20px; }
     main part-2 .contribution p:not(:last-of-type) {
       margin-bottom: 10px; }
+  main part-2 .hotel {
+    max-width: 800px;
+    margin: 25px auto;
+    background-color: rgba(0, 139, 76, 0.66);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px; }
+    main part-2 .hotel h3 {
+      margin-bottom: 25px;
+      font-size: 1.5rem; }
+    main part-2 .hotel li {
+      list-style: none;
+      font-size: 1.3rem;
+      text-align: left; }
+      main part-2 .hotel li:not(:last-of-type) {
+        margin-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */
