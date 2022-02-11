@@ -145,5 +145,24 @@ main part-2 {
       text-align: left; }
       main part-2 .hotel li:not(:last-of-type) {
         margin-bottom: 15px; }
+  main part-2 .merci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; }
+    main part-2 .merci img {
+      width: 50%; }
+      main part-2 .merci img:nth-of-type(2) {
+        border-radius: 25px; }
+      @media screen and (max-width: 800px) {
+        main part-2 .merci img {
+          width: 80%; } }
+    main part-2 .merci h2 {
+      background-color: rgba(0, 0, 0, 0.53);
+      color: #dc059f;
+      font-size: 3rem;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 15px; }
 
 /*# sourceMappingURL=style.css.map */
