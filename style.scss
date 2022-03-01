@@ -33,7 +33,7 @@ main {
     }
 
     header {
-      background: rgba(25, 86, 86, 0.3);
+      background: rgba(27, 89, 89, 0.3);
       margin-bottom: 25px;
 
       h1, h2, p {
@@ -42,6 +42,11 @@ main {
 
       h2 {
         color: #0303b7;
+
+        &#noms {
+          color: #9d0071;
+          font-size: 2rem;
+        }
       }
 
       h3 {
@@ -54,7 +59,7 @@ main {
     }
 
     .info {
-      background: rgba(68, 75, 24, 0.3);
+      background: rgba(52, 58, 19, 0.3);
       border-radius: 25px;
       padding: 10px;
 
@@ -137,7 +142,7 @@ main {
       align-items: center;
       text-align: center;
       padding: 25px;
-      background-color: rgba(84, 171, 119, 0.49);
+      background-color: rgba(40, 143, 99, 0.66);
       border-radius: 25px;
 
       .text {
@@ -149,6 +154,12 @@ main {
         .box {
           padding: 10px;
           border: black 3px double;
+
+          &.accompagnement {
+            ul {
+              margin-bottom: 10px;
+            }
+          }
         }
 
         p {
@@ -231,7 +242,12 @@ main {
       gap: 25px;
 
       img {
-        width: 50%;
+        width: 30%;
+        border-radius: 25px;
+
+        &#jen-et-gil {
+          border: #623503 4px solid;
+        }
 
         &:nth-of-type(2) {
           border-radius: 25px;
